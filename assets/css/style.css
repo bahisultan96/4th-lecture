@@ -1,0 +1,297 @@
+:root {
+    --nav-color: #2c4964;
+    --nav-hover-color: #1977cc;
+    --nav-mobile-background-color: #ffffff;
+    --nav-dropdown-background-color: #ffffff;
+    --nav-dropdown-color: #2c4964;
+    --nav-dropdown-hover-color: #1977cc;
+}
+
+:root {
+    --swiper-theme-color: #007aff;
+    --background-color: #ffffff;
+    --default-color: #444444;
+    --heading-color: #2c4964;
+    --accent-color: #1977cc;
+    --surface-color: #ffffff;
+    --contrast-color: #ffffff;
+}
+
+.text- {
+    font-size: 48px;
+    font-weight: 700 !important;
+    font-family: var(--heading-font);
+}
+
+:root {
+    --blue-color: #1977cc;
+    --h-color: #2c4964;
+    --bg-8: #f1f7fc;
+}
+
+:root {
+    --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --heading-font: "Poppins", sans-serif;
+    --nav-font: "Raleway", sans-serif;
+}
+
+p {
+    color: var(--default-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--heading-color);
+    font-family: var(--heading-font);
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.hero .content .why-box {
+    color: var(--contrast-color);
+    background: var(--accent-color);
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.hero .content .why-box .more-btn {
+    color: var(--contrast-color);
+    display: inline-block;
+    background:
+        color-mix(in srgb, var(--contrast-color), transparent 80%);
+    padding: 6px 30px 8px;
+    border-radius: 50px;
+    transition: 0.4s ease-in-out;
+}
+
+a {
+    color: var(--contrast-color);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.more-btn:hover {
+    color: var(--accent-color) !important;
+    background-color: var(--surface-color) !important;
+}
+
+.more-btn:hover i {
+    color: var(--accent-color) !important;
+}
+
+.more-btn i {
+    font-size: 14px;
+    color: var(--contrast-color);
+}
+
+.dept-item h3 {
+    color: var(--h-color);
+}
+
+.bg-blue {
+    background-color: var(--accent-color);
+}
+
+.py-8 {
+    padding: 80px 0;
+}
+
+.header {
+    z-index: 100;
+}
+
+.hero .container {
+    position: relative;
+    z-index: 9999;
+}
+
+#hero img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    inset: 0px;
+}
+
+.bi {
+    color: #1977cc;
+    font-size: 40px;
+}
+
+.btn-a {
+    display: inline-block;
+    padding: 6px 30px 8px 30px;
+    border: 50px;
+}
+
+#stats {
+    background-color: var(--bg-8);
+}
+
+#stats .icon {
+    box-shadow: 0px -2px 1px 2px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 54px;
+    width: 54px;
+    top: -27px;
+    left: calc(50% - 27px);
+}
+
+.section-heading h2 {
+    position: relative;
+    margin: 35px;
+}
+
+.section-heading h2::before {
+    content: "";
+    width: 160px;
+    height: 1px;
+    background-color: gray;
+    position: absolute;
+    bottom: -15px;
+    left: calc(50% - 80px);
+}
+
+.section-heading h2::after {
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: var(--blue-color);
+    position: absolute;
+    bottom: -16px;
+    z-index: 99;
+    left: calc(50% - 25px);
+}
+
+.ser-icon {
+    height: 60px;
+    width: 60px;
+
+    box-shadow: -8px -8px 0 0 #0d6efd38;
+
+}
+
+.service-item {
+    padding: 70px 28px;
+    border: 1px solid gray;
+    transition: all 0.5se ease;
+}
+
+.service-item:hover {
+    background-color: var(--blue-color);
+    cursor: pointer;
+}
+
+.service-item:hover h3,
+.service-item:hover p {
+    color: white !important;
+}
+
+.service-item:hover .ser-icon {
+    background: white;
+    color: var(--blue-color) !important;
+    box-shadow: -8px -8px 0 0 #ffffff3d;
+}
+
+.service-item p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.team-member .pic {
+    width: 150px;
+    height: 150px;
+}
+
+.team-member .prfaction::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    bottom: 0px;
+    left: 0px;
+    background:
+        color-mix(in srgb, var(--default-color), transparent 85%);
+}
+
+.doctors .team-member .social {
+    margin-top: 12px;
+    width: 100%;
+}
+
+.social a {
+    width: 36px;
+    height: 36px;
+    background:
+        color-mix(in srgb, var(--default-color), transparent 94%);
+    transition: 0.3s ease-in-out;
+}
+
+.social a i {
+    color:
+        color-mix(in srgb, var(--default-color), transparent 20%);
+    font-size: 16px;
+    margin: 0px 2px;
+}
+
+.social a:hover {
+    background: var(--accent-color) !important;
+}
+
+.social a:hover i {
+    color: var(--contrast-color) !important;
+}
+
+.team-member {
+    transition: all 1s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-10px);
+}
+
+.faq-section {
+    background-color: var(--bg-8);
+}
+
+.Testimonials-section h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.info-item h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    padding: 0px;
+}
+
+.info-item i {
+    color: var(--contrast-color);
+    font-size: 20px;
+    width: 44px;
+    height: 44px;
+    margin-right: 15px;
+    background: var(--accent-color);
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+}
+
+.gallary-item {
+    transition: all .5s ease;
+}
+
+.gallary-item:hover {
+    transform: scale(1.08);
+}
