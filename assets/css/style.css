@@ -295,3 +295,7 @@ a {
 .gallary-item:hover {
     transform: scale(1.08);
 }
+
+.footer {
+    background-color: var(--bg-8);
+}
